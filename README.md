@@ -6,13 +6,16 @@ Steps:
 Step 1: 
 Download the TUSZ dataset from the official website https://isip.piconepress.com/projects/nedc/html/tuh_eeg
 
-Step 2: 
+Step 2:
+Set up the python environments as listed in labramrequirements.txt for LaBraM and reverequirements.txt for REVE.
+
+Step 3: 
 Preprocess the dataset using the two scripts, one for LaBraM and the other for REVE. The preprocessed data for REVE has been used for evaluating RNN and hybrid CNN-biLSTM model. 
 
-Step 3:
+Step 4:
 Modify the config files as needed (such as config_dt.yaml, tusz.yaml, etc for REVE)
 
-Step 4:
+Step 5:
 Fine tune the dataset and get the results
 
 For finetuning Labram, we used the following command:
